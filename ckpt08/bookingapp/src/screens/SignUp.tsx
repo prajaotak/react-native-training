@@ -71,39 +71,4 @@ const SignUp: React.FC<Props> = ({navigation}) => {
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'column',
-  },
-  titleContainer: {
-    flex: 1,
-    flexDirection: 'column',
-    paddingTop: 50,
-    paddingLeft: 22,
-  },
-  paloLogo: {
-    width: 125,
-    height: 30,
-    marginBottom: 12,
-    resizeMode: 'contain',
-  },
-  thImage: {
-    width: 69,
-    height: 9,
-    marginBottom: 30,
-    resizeMode: 'contain',
-  },
-  titleImage: {
-    width: 221,
-    height: 74,
-    resizeMode: 'contain',
-  },
-  text: {
-    fontSize: 16,
-    fontFamily: 'open sans',
-    marginBottom: 20,
-  },
-});
-
 export default SignUp;

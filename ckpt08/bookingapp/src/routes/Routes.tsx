@@ -12,10 +12,6 @@ import SelectRoom from '../screens/SelectRoom';
 import History from '../screens/History';
 import Success from '../screens/Success';
 import BookingSummary from '../screens/BookingSummary';
-// import FindRoom from '../pages/FindRoom';
-// import RoomResult from '../pages/RoomResult';
-// import BookingSummary from '../pages/BookingSummary';
-// import MyBooking from '../pages/MyBooking';
 
 export enum Routes {
   Landing = "Landing",

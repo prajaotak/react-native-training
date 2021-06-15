@@ -11,7 +11,7 @@ Navigation
 ### ckpt05
 Sign Up Screen + Feature
 ### ckpt06
-Sign Up Screen Complete + API
+Sign Up Screen Complete + API + Token
 ### ckpt07
 Login Complete
 ### ckpt08

@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   ImageBackground,
-  KeyboardAvoidingView,
   StyleSheet,
   View,
   Platform,
@@ -18,13 +17,9 @@ interface Props {
 const PublicLayout: React.FC<Props> = ({background, testID, children}) => {
   return (
     <ImageBackground testID={testID} source={background||landingBackground} style={styles.background}>
-      <KeyboardAvoidingView
-        style={{flex: 1}}
-        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
         <View style={styles.darkenContainer}>
           {children}
         </View>
-      </KeyboardAvoidingView>
     </ImageBackground>
   );
 };
